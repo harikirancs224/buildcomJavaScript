@@ -1,0 +1,54 @@
+{
+
+  "name": "buildcom",
+
+  "version": "0.0.1",
+
+  "description": "Assessment for Build.com",
+
+  "scripts": {
+
+    "start": "test",
+
+    "test": "protractor Conf.js"
+
+  },
+
+  "repository": {
+
+    "type": "github",
+
+    "url": ""
+
+  },
+
+  "keywords": [
+
+    "Protractor",
+
+    "webdriver-manager",
+
+    "selenium"
+
+  ],
+
+  "author": "Hari Kiran Kothamasu",
+
+  "license": "MIT",
+
+  "dependencies": {
+
+    "selenium-webdriver": "2.53.3",
+
+    "webdriver-manager": "^10.2.2",
+
+    "protractor": "^5.1.2",
+
+    "grunt": "*",
+
+    "appium": "*"
+
+  }
+
+}
+

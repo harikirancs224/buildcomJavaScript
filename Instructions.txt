@@ -1,0 +1,27 @@
+This program handles the captcha page where if it encounters it will wait for the user to finish the captcha.
+
+All the variable used in this project can be imported from a property file.
+
+Steps to Run Java Script Version of the assessment in your local
+
+Clone the code form the repository
+
+Install Protractor in your local using npm install -g protractor
+Or
+Using npm install in the project terminal or command prompt
+
+It will install all the required dependencies for the project once completed 
+
+Use webdriver-manager update to update all the dependent driver in your local
+
+Use webdriver-manager start to start the virtual server
+
+Then in an other terminal window you can use “npm test” command to execute the end to end test.
+
+ Issues faced during this process
+
+When I am adding a product to cart even though item is available in stock it is not letting me add product
+
+There should be a min value of the item stock availability to enable the button or change color of the button with * Items subject 
+
+Item Stock Available count is wrong or Add to Cart button should be disabled if available count didn’t reach.
